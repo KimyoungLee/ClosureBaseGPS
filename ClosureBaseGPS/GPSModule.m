@@ -20,13 +20,13 @@
         self.callbackBlock = block;
     }
     
-    [NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(runLocationManager:) userInfo:nil repeats:NO];
-//    //gps 모듈 생성
-//    m_locManager = [[CLLocationManager alloc] init];
-//    [m_locManager setDesiredAccuracy:kCLLocationAccuracyBestForNavigation];
-//    m_locManager.distanceFilter = kCLDistanceFilterNone;
-//    [m_locManager setDelegate:self];
-//    [m_locManager startUpdatingLocation];
+//    [NSTimer scheduledTimerWithTimeInterval:0.1f target:self selector:@selector(runLocationManager:) userInfo:nil repeats:NO];
+    //gps 모듈 생성
+    m_locManager = [[CLLocationManager alloc] init];
+    [m_locManager setDesiredAccuracy:kCLLocationAccuracyBestForNavigation];
+    m_locManager.distanceFilter = kCLDistanceFilterNone;
+    [m_locManager setDelegate:self];
+    [m_locManager startUpdatingLocation];
     
     //member variables 초기화
     m_firstTime = 0.0f;
