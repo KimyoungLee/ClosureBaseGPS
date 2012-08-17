@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45E0CED215DE26770033FE6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0CED115DE26770033FE6A /* UIKit.framework */; };
+		45E0CED415DE26770033FE6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0CED315DE26770033FE6A /* Foundation.framework */; };
+		45E0CED615DE26770033FE6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0CED515DE26770033FE6A /* CoreGraphics.framework */; };
+		45E0CEDC15DE26770033FE6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45E0CEDA15DE26770033FE6A /* InfoPlist.strings */; };
+		45E0CEDE15DE26770033FE6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0CEDD15DE26770033FE6A /* main.m */; };
+		45E0CEE215DE26770033FE6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0CEE115DE26770033FE6A /* AppDelegate.m */; };
+		45E0CEE515DE26770033FE6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0CEE415DE26770033FE6A /* ViewController.m */; };
+		45E0CEE815DE26770033FE6A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E0CEE615DE26770033FE6A /* ViewController.xib */; };
+		45E0CEF015DE26C70033FE6A /* GPSModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E0CEEF15DE26C70033FE6A /* GPSModule.m */; };
+		45E0CEF215DE29790033FE6A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E0CEF115DE29790033FE6A /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45E0CECD15DE26770033FE6A /* ClosureBaseGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosureBaseGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E0CED115DE26770033FE6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45E0CED315DE26770033FE6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45E0CED515DE26770033FE6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45E0CED915DE26770033FE6A /* ClosureBaseGPS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClosureBaseGPS-Info.plist"; sourceTree = "<group>"; };
+		45E0CEDB15DE26770033FE6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45E0CEDD15DE26770033FE6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45E0CEDF15DE26770033FE6A /* ClosureBaseGPS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClosureBaseGPS-Prefix.pch"; sourceTree = "<group>"; };
+		45E0CEE015DE26770033FE6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45E0CEE115DE26770033FE6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45E0CEE315DE26770033FE6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45E0CEE415DE26770033FE6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45E0CEE715DE26770033FE6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		45E0CEEE15DE26C70033FE6A /* GPSModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSModule.h; sourceTree = "<group>"; };
+		45E0CEEF15DE26C70033FE6A /* GPSModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSModule.m; sourceTree = "<group>"; };
+		45E0CEF115DE29790033FE6A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E0CECA15DE26770033FE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E0CEF215DE29790033FE6A /* CoreLocation.framework in Frameworks */,
+				45E0CED215DE26770033FE6A /* UIKit.framework in Frameworks */,
+				45E0CED415DE26770033FE6A /* Foundation.framework in Frameworks */,
+				45E0CED615DE26770033FE6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E0CEC215DE26770033FE6A = {
+			isa = PBXGroup;
+			children = (
+				45E0CED715DE26770033FE6A /* ClosureBaseGPS */,
+				45E0CED015DE26770033FE6A /* Frameworks */,
+				45E0CECE15DE26770033FE6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E0CECE15DE26770033FE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E0CECD15DE26770033FE6A /* ClosureBaseGPS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E0CED015DE26770033FE6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E0CEF115DE29790033FE6A /* CoreLocation.framework */,
+				45E0CED115DE26770033FE6A /* UIKit.framework */,
+				45E0CED315DE26770033FE6A /* Foundation.framework */,
+				45E0CED515DE26770033FE6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45E0CED715DE26770033FE6A /* ClosureBaseGPS */ = {
+			isa = PBXGroup;
+			children = (
+				45E0CEE015DE26770033FE6A /* AppDelegate.h */,
+				45E0CEE115DE26770033FE6A /* AppDelegate.m */,
+				45E0CEE315DE26770033FE6A /* ViewController.h */,
+				45E0CEE415DE26770033FE6A /* ViewController.m */,
+				45E0CEEE15DE26C70033FE6A /* GPSModule.h */,
+				45E0CEEF15DE26C70033FE6A /* GPSModule.m */,
+				45E0CEE615DE26770033FE6A /* ViewController.xib */,
+				45E0CED815DE26770033FE6A /* Supporting Files */,
+			);
+			path = ClosureBaseGPS;
+			sourceTree = "<group>";
+		};
+		45E0CED815DE26770033FE6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E0CED915DE26770033FE6A /* ClosureBaseGPS-Info.plist */,
+				45E0CEDA15DE26770033FE6A /* InfoPlist.strings */,
+				45E0CEDD15DE26770033FE6A /* main.m */,
+				45E0CEDF15DE26770033FE6A /* ClosureBaseGPS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E0CECC15DE26770033FE6A /* ClosureBaseGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E0CEEB15DE26770033FE6A /* Build configuration list for PBXNativeTarget "ClosureBaseGPS" */;
+			buildPhases = (
+				45E0CEC915DE26770033FE6A /* Sources */,
+				45E0CECA15DE26770033FE6A /* Frameworks */,
+				45E0CECB15DE26770033FE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClosureBaseGPS;
+			productName = ClosureBaseGPS;
+			productReference = 45E0CECD15DE26770033FE6A /* ClosureBaseGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E0CEC415DE26770033FE6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = lkm;
+			};
+			buildConfigurationList = 45E0CEC715DE26770033FE6A /* Build configuration list for PBXProject "ClosureBaseGPS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45E0CEC215DE26770033FE6A;
+			productRefGroup = 45E0CECE15DE26770033FE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E0CECC15DE26770033FE6A /* ClosureBaseGPS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E0CECB15DE26770033FE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E0CEDC15DE26770033FE6A /* InfoPlist.strings in Resources */,
+				45E0CEE815DE26770033FE6A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E0CEC915DE26770033FE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E0CEDE15DE26770033FE6A /* main.m in Sources */,
+				45E0CEE215DE26770033FE6A /* AppDelegate.m in Sources */,
+				45E0CEE515DE26770033FE6A /* ViewController.m in Sources */,
+				45E0CEF015DE26C70033FE6A /* GPSModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45E0CEDA15DE26770033FE6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E0CEDB15DE26770033FE6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		45E0CEE615DE26770033FE6A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E0CEE715DE26770033FE6A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E0CEE915DE26770033FE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45E0CEEA15DE26770033FE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E0CEEC15DE26770033FE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClosureBaseGPS/ClosureBaseGPS-Prefix.pch";
+				INFOPLIST_FILE = "ClosureBaseGPS/ClosureBaseGPS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45E0CEED15DE26770033FE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ClosureBaseGPS/ClosureBaseGPS-Prefix.pch";
+				INFOPLIST_FILE = "ClosureBaseGPS/ClosureBaseGPS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E0CEC715DE26770033FE6A /* Build configuration list for PBXProject "ClosureBaseGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E0CEE915DE26770033FE6A /* Debug */,
+				45E0CEEA15DE26770033FE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E0CEEB15DE26770033FE6A /* Build configuration list for PBXNativeTarget "ClosureBaseGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E0CEEC15DE26770033FE6A /* Debug */,
+				45E0CEED15DE26770033FE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E0CEC415DE26770033FE6A /* Project object */;
+}
