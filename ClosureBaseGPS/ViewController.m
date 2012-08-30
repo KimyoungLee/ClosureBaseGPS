@@ -6,6 +6,7 @@
 //  Copyright (c) 2012년 lkm. All rights reserved.
 //
 //githubdyd 네 추가.
+//macbook text.
 #import "ViewController.h"
 
 
