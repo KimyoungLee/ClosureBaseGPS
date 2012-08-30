@@ -49,4 +49,14 @@
     // Release any retained subviews of the main view.
 }
 
+- (IBAction)getGPSCoordinate:(id)sender {
+    __block GPSModule *gpsm = [[GPSModule alloc] initWithCallback:^(CLLocationCoordinate2D loc)
+           {
+               self.textview.text = [self.textview.text stringByAppendingString:[NSString stringWithFormat:@"lat:%f, longi:%f\n", loc.latitude, loc.longitude]];
+               NSLog(@"send!!!! loc lat:%f, longi:%f", loc.latitude, loc.longitude);
+               //메모리 해제
+               gpsm = nil;
+           }];
+
+}
 @end

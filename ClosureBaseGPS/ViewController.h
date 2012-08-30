@@ -14,4 +14,5 @@
     GPSModule *gps;
 }
 @property (strong, nonatomic) IBOutlet UITextView *textview;
+- (IBAction)getGPSCoordinate:(id)sender;
 @end
